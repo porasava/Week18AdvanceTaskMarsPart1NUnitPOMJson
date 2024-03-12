@@ -1,0 +1,48 @@
+﻿{
+  "Notification": [
+    {
+      "TestCaseId": "TS_601_TC_001",
+      "username": "Tananya1@hotmail.com",
+      "password": "TananyaHappy",
+      "username2": "Tananya@hotmail.com"
+    },
+    {
+      "TestCaseId": "TS_601_TC_002",
+      "username": "Tananya1@hotmail.com",
+      "password": "TananyaHappy",
+      "username2": "Tananya@hotmail.com"
+    },
+    {
+      "TestCaseId": "TS_601_TC_003",
+      "username": "Tananya1@hotmail.com",
+      "password": "TananyaHappy",
+      "username2": "Tananya@hotmail.com"
+    },
+    {
+      "TestCaseId": "TS_601_TC_004",
+      "username": "Tananya1@hotmail.com",
+      "password": "TananyaHappy",
+      "username2": "Tananya@hotmail.com"
+    },
+    {
+      "TestCaseId": "TS_601_TC_005",
+      "username": "Tananya1@hotmail.com",
+      "password": "TananyaHappy",
+      "username2": "Tananya@hotmail.com"
+    },
+    {
+      "TestCaseId": "TS_601_TC_006",
+      "username": "Tananya1@hotmail.com",
+      "password": "TananyaHappy",
+      "username2": "Tananya@hotmail.com"
+    },
+    {
+      "TestCaseId": "TS_601_TC_0061",
+      "username": "Tananya1@hotmail.com",
+      "password": "TananyaHappy",
+      "username2": "Tananya@hotmail.com",
+      "title": "Digital Marketing Tananya",
+      "MessageRequestText": "Hi Send request from TS_601_TC_0061"
+    }
+  ]
+}

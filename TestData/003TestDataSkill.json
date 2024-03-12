@@ -1,0 +1,59 @@
+﻿{
+  "Skill": [
+    {
+      "TestCaseId": "TS_301_TC_001",
+      "SkillName": "Management",
+      "SkillLevel": "Expert",
+      "SkillDelete": "Management"
+    },
+    {
+      "TestCaseId": "TS_301_TC_002",
+      "SkillName": "Leadership",
+      "SkillLevel": ""
+    },
+    {
+      "TestCaseId": "TS_301_TC_003",
+      "SkillName": " ",
+      "SkillLevel": "Expert",
+      "SkillDelete": " "
+    },
+    {
+      "TestCaseId": "TS_301_TC_004",
+      "SkillName": "!!!!!!!",
+      "SkillLevel": "Expert",
+      "SkillDelete": "!!!!!!!"
+    },
+    {
+      "TestCaseId": "TS_301_TC_005",
+      "SkillName": "ManagementManagementManagementManagementManagementManagementManagementManagementManagementManagementManagementManagementManagement",
+      "SkillLevel": "Expert",
+      "SkillDelete": "ManagementManagementManagementManagementManagementManagementManagementManagementManagementManagementManagementManagementManagement"
+    },
+    {
+      "TestCaseId": "TS_301_TC_006",
+      "SkillName": "Management",
+      "SkillLevel": "Expert",
+      "SkillDelete": "Management"
+    },
+    {
+      "TestCaseId": "TS_301_TC_007",
+      "SkillName": "HelloWorldHelloworldHelloWorldHelloworldHelloWorldHelloworldHelloWorldHelloworldHelloWorldHelloworldHelloWorldHelloworldHelloWorldHelloworld",
+      "SkillLevel": "Expert",
+      "SkillDelete": "SkillSkillSkillSkillSkillSkillSkillSkillSkillSkillSkillSkillSkillSkillSkillSkillSkillSkillSkillSkillSkillSkill\nSkillSkillSkillSkill"
+    },
+    {
+      "TestCaseId": "TS_302_TC_001",
+      "SkillName": "Communication",
+      "SkillLevel": "Expert",
+      "SkillEdit": "Teamwork",
+      "SkillDelete": "Teamwork"
+    },
+    {
+      "TestCaseId": "TS_303_TC_001",
+      "SkillName": "Creativity",
+      "SkillLevel": "Expert",
+      "SkillDelete": "Happy",
+      "SkillEdit": "Happy"
+    }
+  ]
+}

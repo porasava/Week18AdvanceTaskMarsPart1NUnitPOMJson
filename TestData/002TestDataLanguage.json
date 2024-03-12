@@ -1,0 +1,60 @@
+﻿{
+  "Language": [
+    {
+      "TestCaseId": "TS_201_TC_001",
+      "Language": "Spanish",
+      "LanguageLevel": "Basic"
+    },
+    {
+      "TestCaseId": "TS_201_TC_002",
+      "Language": "Spanish",
+      "LanguageLevel": ""
+    },
+    {
+      "TestCaseId": "TS_201_TC_003",
+      "Language": "[SPACE]",
+      "LanguageLevel": "Basic"
+    },
+    {
+      "TestCaseId": "TS_201_TC_004",
+      "Language": "!!!",
+      "LanguageLevel": "Basic"
+    },
+    {
+      "TestCaseId": "TS_201_TC_005",
+      "Language": "SpanishSpanishSpanishSpanishSpanishSpanishSpanishSpanish",
+      "LanguageLevel": "Basic"
+    },
+    {
+      "TestCaseId": "TS_201_TC_006",
+      "Language": "Spanish",
+      "LanguageLevel": "Basic"
+    },
+    {
+      "TestCaseId": "TS_201_TC_007",
+      "Language": "Spanish",
+      "LanguageLevel": "Basic",
+      "Language2": "English",
+      "Language3": "Chinese",
+      "Language4": "Dutch",
+      "LanguageEdit": "Dutchh"
+    },
+    {
+      "TestCaseId": "TS_201_TC_008",
+      "Language": "Spanish",
+      "LanguageLevel": "Basic"
+    },
+    {
+      "TestCaseId": "TS_202_TC_001",
+      "Language": "German",
+      "LanguageLevel": "Basic",
+      "LanguageEdit": "Korean"
+    },
+    {
+      "TestCaseId": "TS_203_TC_001",
+      "Language": "French",
+      "LanguageLevel": "Fluent",
+      "LanguageDelete": "French"
+    }
+  ]
+}
