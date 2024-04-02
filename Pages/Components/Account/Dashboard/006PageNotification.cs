@@ -424,21 +424,6 @@ namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Component.Account.Dashboa
         }
 
 
-
-        //DeleteOneNotificationFromTheNotificationPage
-
-        //public void DeleteOneNotification()
-        //{
-        //    renderMessageDeleteComponents();
-        //    Thread.Sleep(1000);
-        //    string actualMessage = MessageDelete.Text.Trim();
-        //    // The static part of the message you expect
-        //    string expectedStaticPart = "Notification updated";
-        //    // Assert that the actual message contains the expected static part
-        //    Assert.That(actualMessage.Contains(expectedStaticPart),
-        //    $"Error: The actual message '{actualMessage}' does not contain the expected text '{expectedStaticPart}'.");
-
-        //}
         public void DeleteOneNotification()
         {
             renderMessageDeleteComponents();
@@ -461,20 +446,6 @@ namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Component.Account.Dashboa
 
         }
 
-
-        ////ShowReceivedRequestsPage
-        //public void ShowReceivedRequestsPage()
-        //{
-        //    renderMessageDeleteComponents();
-        //    Thread.Sleep(1000);
-        //    string actualMessage = MessageDelete.Text.Trim();
-        //    // The static part of the message you expect
-        //    string expectedStaticPart = "Received Requests";
-        //    // Assert that the actual message contains the expected static part
-        //    Assert.That(actualMessage.Contains(expectedStaticPart),
-        //    $"Error: The actual message '{actualMessage}' does not contain the expected text '{expectedStaticPart}'.");
-
-        //}
 
         public void ShowReceivedRequestsPage()
         {
@@ -595,18 +566,6 @@ namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Component.Account.Dashboa
             MarkAsRead.Click();
         }
 
-        //public void NotificationUpdated()
-        //{
-        //    renderNotificationUpdatedComponents();
-        //    Thread.Sleep(1000);
-        //    Wait.ElementIsVisible(driver1, PopUp1, 15);
-        //    string actualMessage = PopUp.Text.Trim();
-        //    // The static part of the message you expect
-        //    string expectedStaticPart = "Notification updated";
-        //    // Assert that the actual message contains the expected static part
-        //    Assert.That(actualMessage.Contains(expectedStaticPart),
-        //        $"Error: The actual message '{actualMessage}' does not contain the expected text '{expectedStaticPart}'.");
-        //}
 
         public void NotificationUpdated()
         {

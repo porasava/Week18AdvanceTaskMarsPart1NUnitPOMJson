@@ -233,20 +233,7 @@ namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Component.Account.Profile
             languageUpdate.Click();
         }
 
-        ////LanguageShouldBeEditSuccessfully
-        //public void LanguageShouldBeEdited(string languageEdit)
-        //{
-        //    renderLanguageComponents();
-        //    Thread.Sleep(2000);
-        //    Wait.ElementIsVisible(driver1, By.XPath("/html/body/div[1]/div"), 8);
-        //    renderPopupDeleteComponents();
-        //    string actualMessage = languagePopUp.Text.Trim();
-        //    // The static part of the message you expect
-        //    string expectedStaticPart = "has been updated to your languages";
-        //    // Assert that the actual message contains the expected static part
-        //    Assert.That(actualMessage.Contains(expectedStaticPart),
-        //        $"Error: The actual message '{actualMessage}' does not contain the expected text '{expectedStaticPart}'.");
-        //}
+
         public void LanguageShouldBeEdited(string languageEdit)
         {
             renderLanguageComponents();

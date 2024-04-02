@@ -93,19 +93,7 @@ namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Component.Account.Profile
             renderEditAvailabilityComponents();
             availabiltyType.SendKeys(availabiltyTypeInput);
         }
-        //public void AvailabilityshouldChangeSuccessfully(string availabiltyTypeInput)
-        //{
-        //    Thread.Sleep(1000);
-        //    string AvailabilityExpect = availabiltyTypeInput; // Replace with the Skill name based on user input
-        //    IWebElement AvailabilityShow = driver1.FindElement(By.XPath($"//span[normalize-space()='{availabiltyTypeInput}']"));
-        //    string actualMessage = AvailabilityShow.Text.Trim();
-        //    // The static part of the message you expect
-        //    string expectedStaticPart = AvailabilityExpect;
-        //    // Assert that the actual message contains the expected static part
-        //    Assert.That(actualMessage.Contains(expectedStaticPart),
-        //        $"Error: The actual message '{actualMessage}' does not contain the expected text '{expectedStaticPart}'.");
 
-        //}
         public void AvailabilityShouldChangeSuccessfully(string availabilityTypeInput)
         {
             // Assuming you have a method or a way to get the locator for the element you want to assert on
@@ -123,18 +111,7 @@ namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Component.Account.Profile
             AvailabilityHourType.Click();
             AvailabilityHourType.SendKeys(AvailabilityHourTypeInput);
         }
-        //public void HoursshouldChangeSuccessfully(string AvailabilityHourTypeInput)
-        //{
-        //    Thread.Sleep(1000);
-        //    string AvailabilityHoursExpect = AvailabilityHourTypeInput; // Replace with the Skill name based on user input
-        //    IWebElement AvailabilityHoursShow = driver1.FindElement(By.XPath($"(//div[@class='item']//div[@class='right floated content']/span)[2]"));
-        //    string actualMessage = AvailabilityHoursShow.Text.Trim();
-        //    // The static part of the message you expect
-        //    string expectedStaticPart = AvailabilityHoursExpect;
-        //    // Assert that the actual message contains the expected static part
-        //    Assert.That(actualMessage.Contains(expectedStaticPart),
-        //        $"Error: The actual message '{actualMessage}' does not contain the expected text '{expectedStaticPart}'.");
-        //}
+
         public void HoursshouldChangeSuccessfully(string AvailabilityHourTypeInput)
         {
             // Assuming you have a method or a way to get the locator for the element you want to assert on
@@ -155,18 +132,6 @@ namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Component.Account.Profile
         }
 
 
-        //public void EarnTarGetshouldChangeSuccessfully(string availabiltyTargetInput)
-        //{
-        //    Thread.Sleep(1000);
-        //    string AvailabilityHoursExpect = availabiltyTargetInput; // Replace with the Skill name based on user input
-        //    IWebElement AvailabilityTargetShow = availabiltyTargetDropdown;
-        //    string actualMessage = AvailabilityTargetShow.Text.Trim();
-        //    // The static part of the message you expect
-        //    string expectedStaticPart = AvailabilityHoursExpect;
-        //    // Assert that the actual message contains the expected static part
-        //    Assert.That(actualMessage.Contains(expectedStaticPart),
-        //        $"Error: The actual message '{actualMessage}' does not contain the expected text '{expectedStaticPart}'.");
-        //}
 
         public void EarnTarGetshouldChangeSuccessfully(string availabiltyTargetInput)
         {
