@@ -5,6 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages;
+using Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Component.HomePage.SearchSkill;
+using Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Component.HomePage.SearchSkill.ResultPage;
+using static Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Components.SignIn.Login;
 
 namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Steps
 {
@@ -13,12 +16,19 @@ namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Steps
         private readonly IWebDriver driver1;
         private readonly PageLogin loginPageObj;
         private readonly _005PageSearchSkill pageSearchSkillObj;
-
+        private readonly _005PageSearchSkillFilter pageSearchSkillFilterObj;
+        private readonly _005PageSearchSkillSubCategories pageSearchSkillSubCategoriesObj;
+        private readonly _005PageSearchSkillResult pageSearchSkillSubCategoriesResultObj;
         public _005StepSearchSkill(IWebDriver _driver)
         {
             driver1 = _driver;
             loginPageObj = new PageLogin(driver1);
             pageSearchSkillObj = new _005PageSearchSkill(driver1);
+            pageSearchSkillFilterObj = new _005PageSearchSkillFilter(driver1);
+            pageSearchSkillSubCategoriesObj = new _005PageSearchSkillSubCategories(driver1);
+            pageSearchSkillSubCategoriesResultObj = new _005PageSearchSkillResult(driver1);
+
+
         }
 
         public void StepSearchASkill(string title)
@@ -29,7 +39,7 @@ namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Steps
 
         public void StepDisplaySkillOnTheResultPage()
         {
-            pageSearchSkillObj.DisplaySkillOnTheResultPage();
+            pageSearchSkillSubCategoriesResultObj.DisplaySkillOnTheResultPage();
         }
 
         //ClickOnLink
@@ -41,35 +51,35 @@ namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Steps
         //ClickOnVideoSubcategory
         public void StepClickOnVideoSubcategory()
         {
-            pageSearchSkillObj.ClickOnVideoSubcategory();
+            pageSearchSkillSubCategoriesObj.ClickOnVideoSubcategory();
         }
 
         //StepSubVideoSubcategoryShouldBeBold
         public void StepSubVideoSubcategoryShouldBeBold()
         {
-            pageSearchSkillObj.SubVideoSubcategoryShouldBeBold();
+            pageSearchSkillSubCategoriesObj.SubVideoSubcategoryShouldBeBold();
         }
 
         //SearchSkillFilter
         public void StepSearchSkillFilter(string buttonName,string SkillSearch)
         {
-            pageSearchSkillObj.SearchSkillFilter(buttonName, SkillSearch);
+            pageSearchSkillFilterObj.SearchSkillFilter(buttonName, SkillSearch);
         }
         //SearchSkillFilterResult
         public void StepSearchSkillFilterResultOnline()
         {
-            pageSearchSkillObj.SearchSkillFilterResultOnline();
+            pageSearchSkillFilterObj.SearchSkillFilterResultOnline();
         }
 
         //SearchSkillFilterResultOnsite
         public void StepSearchSkillFilterResultOnsite()
         {
-            pageSearchSkillObj.SearchSkillFilterResultOnsite();
+            pageSearchSkillFilterObj.SearchSkillFilterResultOnsite();
         }
         //SearchSkillFilterResultAll
         public void StepSearchSkillFilterResultAll ()
         {
-            pageSearchSkillObj.SearchSkillFilterResultAll();
+            pageSearchSkillFilterObj.SearchSkillFilterResultAll();
         }
     }
 }

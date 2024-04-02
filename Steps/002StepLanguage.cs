@@ -4,20 +4,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages;
+using Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Component.Account.Profile;
+
 
 namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Steps
 {
     public class _002StepLanguage
     {
         private readonly IWebDriver driver1;
-        private readonly PageLogin loginPageObj;
         private readonly _002PageLanguage pageLanguageObj;
 
         public _002StepLanguage(IWebDriver _driver)
         {
             driver1 = _driver;
-            loginPageObj = new PageLogin(driver1);
             pageLanguageObj = new _002PageLanguage(driver1);
         }
 

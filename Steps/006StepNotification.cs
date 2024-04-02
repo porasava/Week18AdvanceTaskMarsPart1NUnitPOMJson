@@ -4,7 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages;
+using Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Component.Account.Dashboard;
+using static Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Components.SignIn.Login;
+
 
 namespace Week18AdvanceTaskMarsPart1NUnitPOMJson.Steps
 {

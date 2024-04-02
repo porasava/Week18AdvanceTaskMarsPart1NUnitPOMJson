@@ -11,7 +11,7 @@ using Week18AdvanceTaskMarsPart1NUnitPOMJson.Steps;
 using AventStack.ExtentReports;
 using AventStack.ExtentReports.Reporter;
 using NUnit.Framework.Interfaces;
-
+using static Week18AdvanceTaskMarsPart1NUnitPOMJson.Pages.Components.SignIn.Login;
 
 
 [SetUpFixture]
