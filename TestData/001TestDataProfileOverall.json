@@ -1,0 +1,16 @@
+﻿{
+  "Overall": [
+    {
+      "TestCaseId": "TS_101_TC_002",
+      "availabiltyTypeInput": "Part Time"
+    },
+    {
+      "TestCaseId": "TS_101_TC_003",
+      "AvailabilityHourTypeInput": "As needed"
+    },
+    {
+      "TestCaseId": "TS_101_TC_004",
+      "availabiltyTargetInput": "Less than $500 per month"
+    }
+  ]
+}
